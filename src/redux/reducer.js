@@ -1,7 +1,7 @@
 import produce from 'immer';
 import { actionType } from './actions';
 
-const initialState = {
+export const initialState = {
   data:  {
     'array': [1, 2, 3],
     'boolean': true,
